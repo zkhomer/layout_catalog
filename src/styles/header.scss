@@ -28,7 +28,7 @@
         padding: 23px 0;
         text-transform: uppercase;
         color: #000;
-        transition: 1s;
+        transition: color 1s;
         &:hover {
           color: $headerTextNavColor;
         }

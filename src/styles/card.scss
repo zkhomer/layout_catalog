@@ -19,7 +19,7 @@
       width: 160px;
       height: 134px;
       margin: 30px 5px 45px;
-      transition: 1s;
+      transition: transform 1s;
       &:hover {
         outline: 3px solid $borderColor;
         transform: scale(1.2);
@@ -91,7 +91,7 @@
       text-transform: uppercase;
       font-weight: bold;
       font-size: 14px;
-      transition: 1s;
+      transition: color, background-color 1s;
 
       &:hover {
         background-color: $headerNavBackground;
